@@ -1,0 +1,76 @@
+/* Header */
+
+.header{
+    color: #dfe6e9;
+    padding: 40px 0;
+    background-image: url('/bg-image.jpg');
+    height: 70vh;
+}
+
+.logo{
+    width: 160px;
+    height: 40px;
+    background-color: gray;
+    float: left
+}
+
+.header ul{
+    float: right;
+}
+
+.header li {
+    list-style-type: none;
+    float: left;
+    padding: 0 1rem;
+}
+
+.header li a:hover{
+    color: #0984e3;
+}
+
+.headerText{
+    text-align: center;
+}
+
+/* Main */
+
+.main{
+    /* background-color: #dfe6e9; */
+    background-image: linear-gradient(to right,#74b9ff, #e84393);
+    padding: 40px 0;
+}
+
+.mainCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.mainCard{
+    padding: 1rem;
+    margin: 0.6rem;
+    border: .3rem black solid;
+    flex: 0 25%;
+    list-style-type: none;
+    border-radius: 1rem;
+}
+
+.mainCardIcon{
+    padding-bottom: 1rem;
+    border-bottom: 0.2rem solid black;
+}
+
+.mainCardIcon img{
+    max-width: 60px;
+    max-height: 60px;
+}
+
+.mainCardText{
+    color: black;
+}
+
+.mainCardText h3{
+    font-size: 1.6rem;
+}
+
